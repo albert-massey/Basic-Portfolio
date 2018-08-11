@@ -1,0 +1,47 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    float: right;
+    display: inline;
+}
+
+a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+}
+
+aside {
+    height: 60px;
+    font-size: 35px;
+    display: inline;    
+    color: white;
+    background-color: #4aaaa5;
+}
+
+header {
+    width: 960px;
+    height: 60px;
+    margin: auto;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+}
+
+section {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    background-image: url(../images/spring.png);
+    border: 1px solid lightgray;
+    border-radius: 5px;
+
+}
+
+#bio {
+    padding-left: 140px;
+}
