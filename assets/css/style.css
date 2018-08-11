@@ -4,6 +4,11 @@ ul {
     padding: 0;
 }
 
+h1 {
+    color: #44aaaa;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 li {
     float: right;
     display: inline;
@@ -11,18 +16,29 @@ li {
 
 a {
     display: block;
-    padding: 8px;
-    background-color: #dddddd;
+    padding: 18px;
+    color: gray;
+    text-decoration: none;
 }
 
-aside {
+#main {
+    width: 100%;
+    background-image: url(../images/spring.png);
+
+}
+#name {
+    padding: 28px;
     height: 60px;
-    font-size: 35px;
+    font-size: 30px;
     display: inline;    
     color: white;
     background-color: #4aaaa5;
 }
 
+header {
+    border-bottom: 2px solid lightgray;
+    background-color: white;
+}
 #header-div {
     width: 960px;
     height: 60px;
@@ -34,24 +50,31 @@ section {
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
-    background-image: url(../images/spring.png);
-    border: 1px solid lightgray;
+    border: 1px solid #dddddd;
     border-radius: 5px;
-
+    background-color: white;
+    color: gray;
 }
+
 
 #bio {
     padding-left: 140px;
+    margin-right: 20px;
+
 }
 
 #bio2 {
-    margin-top: 40px;
-    margin-left: 10px;
+    margin: 20px;
+
+}
+
+#bio3 {
+    margin: 20px;
 
 }
 
 footer {
-    margin-top: 40px;
+    margin-top: 92px;
     margin-left: auto;
     margin-right: auto;
     background-color: #666666;
@@ -67,5 +90,16 @@ section.p {
 }
 
 img {
-    margin-left: 10px;
+    margin-left: 20px;
+    border-radius: 5%;
+    height: 120px;
+    width: 100px;
+    
+}
+
+#aboutme {
+    margin: 20px;;
+    border-bottom: 2px solid lightgray;
+    width: 920px
+    
 }
