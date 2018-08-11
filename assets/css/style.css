@@ -103,3 +103,21 @@ img {
     width: 920px
     
 }
+
+input {
+    display: block;
+    margin: 20px;
+    width: 920px;
+
+}
+
+label {
+    margin-left: 20px;
+}
+
+textarea {
+    height: 100px;
+    width: 920px;
+    margin-left: 20px;
+    margin-right: 20px;
+}

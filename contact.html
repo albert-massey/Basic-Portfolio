@@ -3,12 +3,42 @@
 <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Page Title</title>
+    <title>My Portfolio</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+    <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
     <script src="main.js"></script>
 </head>
 <body>
-    
+    <header>
+        <div id="header-div">
+        <ul>
+            <h1 id="name">Albert</h1>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.asp">Portfolio</a></li>
+            <li><a href="about.asp">About</a></li>
+          </ul>
+        </div>
+    </header>
+    <div id="main">
+    <section>
+            <h1 id="aboutme">About Me</h1>
+
+            <form action="action_page.php">
+
+                    <label for="fname">First Name</label>
+                    <input type="text" id="fname" name="firstname" placeholder="Your name..">
+                
+                    <label for="lname">Last Name</label>
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+                
+                    <label for="subject">Subject</label>
+                    <textarea id="subject" name="subject" placeholder="Write something.."></textarea>
+                
+                    <input type="submit" value="Submit">
+                
+                  </form>
+    </section>
+    </div>
+    <footer><p>Copyright &#169;</p></footer>
 </body>
 </html>
