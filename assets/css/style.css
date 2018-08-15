@@ -9,6 +9,11 @@ h1 {
     font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+
+p {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
 li {
     float: right;
     display: inline;
@@ -89,7 +94,7 @@ section.p {
     margin: 20px;
 }
 
-img {
+#img1 {
     margin-left: 20px;
     border-radius: 5%;
     height: 120px;
@@ -108,6 +113,7 @@ input {
     display: block;
     margin: 20px;
     width: 920px;
+    height: 40px;
 
 }
 
@@ -116,8 +122,51 @@ label {
 }
 
 textarea {
-    height: 100px;
+    height: 60px;
     width: 920px;
     margin-left: 20px;
     margin-right: 20px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    margin: 20px;
+    display: inline-flex;
+    position: relative;
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.container {
+    color: white;
+    text-align: center; 
+    width: 160px;
+    padding: 0px 20px;
+    position: absolute;
+    top: 180px;
+    right: 0px;
+    background-color: #44aaaa;
+}
+
+
+img {
+    height: 240px;
+    width: 200px;
+    
+}
+
+#aboutme.p {
+    background-color: white;
+}
+#footerText {
+    background-color: #666666;
+}
+
+#web {
+    display: inline;
+    padding: 0px;
+    background-color: lightblue;
 }
